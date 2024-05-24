@@ -1,0 +1,33 @@
+@import url(../Tools/Font.css);
+@import url(../Tools/Pallete.css);
+/*  */
+.UserImg
+{
+    background-color : var(--BackColor);
+    border-color : var(--SecondaryColor);
+}
+.UserInfo
+{
+    border-color: var(--LineColor);
+}
+.ProfileInfoTop a
+{
+    color: var(--BlackColore);
+}
+.ReportLink , .ReportLink:hover
+{
+    color:red;
+}
+/*  */
+.CenterVideo>div , .SideImage>div 
+{
+    border-color:var(--LineColor);
+}
+.InfoBoxShow
+{
+    border-color:var(--LineColor);
+}
+.SocilaMediaLink a
+{
+    color: var(--TextClor);
+}
