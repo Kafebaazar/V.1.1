@@ -1,0 +1,76 @@
+@import url(../Tools/Font.css);
+.MasterImg
+{
+    margin-top: -100px;
+    width: 175px;
+    height: 175px;
+    border : 5px solid;
+}
+#CourseInfo
+{
+    height: 680px;
+}
+.CourseInfo
+{
+    height: 550px;
+    border : 3px solid;
+    border-radius : 16px;
+}
+.CourseInfo p
+{
+    font-size: 26px;
+}
+.CourseInfo li
+{
+    cursor: default;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    height: 40px;
+}
+.CourseInfo button
+{
+    height: 80px;
+    font-size: 20px;
+    border-radius : 16px;
+}
+#CourseContent
+{
+    height: 1500px;
+}
+.CourseDescription
+{
+    height: 300px;
+    font-size:24px;
+    font-weight: 500px;
+    border : 3px solid;
+    border-radius: 16px;
+}
+.CourseContent
+{
+    overflow-y: auto;
+    border : 3px solid;
+    border-radius: 16px;
+    height: 1100px;
+}
+
+.CoursePartDescription
+{
+    direction: rtl;
+}
+.CoursePartDescription p
+{
+    font-size: 20px;
+}
+.CoursePart
+{
+    height: 250px;
+    border : 3px solid;
+    border-radius : 16px;
+}
+
+#Recommended div
+{
+    direction: rtl;
+    overflow-x: auto;
+}
