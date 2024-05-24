@@ -1,0 +1,12 @@
+:root
+{
+    /* Main Color */
+    --PrimaryColor :#2387FF;
+    --SecondaryColor :#FF9A23;
+    --BlackColor :#070707;
+    --WhiteColor :#F9F9F9;
+    /* More Color*/
+    --TextColor :#757575;
+    --LineColor :#cbcbcb;
+    --BackColor :#e7e7e7;
+}
