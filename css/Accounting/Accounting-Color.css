@@ -1,0 +1,128 @@
+@import url(../Tools/Font.css);
+@import url(../Tools/Pallete.css);
+#AccountingTabs
+{
+    background-color:var(--LineColor);
+    border-color:var(--TextColor);
+    color:var(--BlackColor);
+}
+.JobProfileBanner
+{
+    border-color:var(--LineColor);
+}
+.JobProfileUserImg
+{
+    background-color:var(--BackColor);
+    border-color:var(--SecondaryColor);
+}
+.JobProfileInfo input
+{
+    border-color:var(--LineColor);
+    background-color:var(--BackColor);
+    color:var(--BlackColor);
+}
+#ProfileGalleryView > div > div
+{
+    border-color:var(--LineColor);
+}
+#ProfileInfoView input
+{
+    background-color:var(--BackColor);
+    border-color : var(--LineColor);
+    color:var(--BlackColor);
+}
+#ProfileInfoView a ,#AccountingTabs a
+{
+    color:var(--TextColor);
+}
+#AccountingTabs li
+{
+    border-color:var(--TextColor);
+}
+/*  */
+#UserInformation
+{
+    border-bottom:1px solid var(--LineColor);
+}
+#UserInformation>div
+{
+    border-color: var(--LineColor);
+}
+#UserInformation>div input
+{
+    background-color:transparent;
+    border-color:var(--LineColor) !important;
+}
+
+#UserCertificate button
+{
+    border-color:var(--PrimaryColor);
+    background-color:var(--PrimaryColor);
+    color: var(--WhiteColor);
+}
+#UserCertificate button:hover
+{
+    border-color:var(--PrimaryColor);
+    background-color:var(--WhiteColor);
+    color: var(--PrimaryColor);
+}
+/*  */
+.UserInfo > div > input
+{
+    background-color: var(--BackColor);
+    border-color:var(--LineColor);
+    color:var(--TextColor);
+}
+.UserCertificate button
+{
+    background-color:var(--PrimaryColor);
+    color:var(--BackColor);
+    border-color:var(--PrimaryColor);
+}
+.UserCertificate button:hover
+{
+    border-color:var(--PrimaryColor);
+    background-color:var(--BackColor);
+    color : var(--PrimaryColor);
+}
+/*  */
+.NotifCard
+{
+    border-color: var(--LineColor);
+}
+/* Course */
+.CourseSort
+{
+    border-color:var(--TextColor);
+    background-color :  var(--LineColor);
+    color:var(--BlackColor);
+}
+.CorseList>div>a
+{
+    border-color: var(--LineColor);
+    color:var(--BlackColor);
+}
+/* License */
+#License  a
+{
+    border-color: var(--LineColor);
+    color:var(--BlackColor);
+}
+#License  a:hover
+{
+    border-color:var(--PrimaryColor);
+}
+.LicenseSelect
+{
+    border-color:var(--PrimaryColor)!important;
+}
+#License button
+{
+    background-color : var(--PrimaryColor);
+    color:var(--BackColor);
+    border-color:var(--PrimaryColor);
+}
+.LicenseDescription
+{
+    color:var(--TextColor);
+}
