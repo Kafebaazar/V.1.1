@@ -1,0 +1,58 @@
+@import url(../Tools/Font.css);
+/* WebLogInfo */
+#WebLogInfo
+{
+    margin-top: -100px;
+    height: 400px;
+}
+.AoutherImg
+{
+    border : 5px solid ;
+    /* margin-top: -125px; */
+    width: 175px;
+    height: 175px;
+}
+.WebLogInfo
+{
+    border-radius : 16px;
+    border:3px solid;
+}
+.WebLogInfo img
+{
+    width: 40px;
+    height: auto;
+}
+#WebLogPreText
+{
+    border-radius : 16px;
+    border:3px solid; 
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Recommended */
+#Recommended>div
+{
+    direction: rtl;
+    overflow-x: auto;
+}
+/* WebLogContent */
+#WebLogContent
+{
+    height: 1000px;
+    border-radius : 16px;
+    border:3px solid; 
+    font-size: 20px;
+    font-weight: 500;
+}
+#Tags p
+{
+    font-size: 24px;
+    font-weight: 800;
+}
+#Tags span
+{
+    font-size: 18px;
+    font-weight: 700px;
+    border : 3px solid;
+    border-radius : 16px;
+}
