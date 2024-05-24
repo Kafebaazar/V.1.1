@@ -1,0 +1,609 @@
+@import url(../Tools/Font.css);
+
+@media (max-width: 2226px)/*fix*/
+{
+.fix-home-ca
+{
+    padding: 3px 0px ;
+}
+}
+
+@media (max-width: 2025px)/*fix*/
+{
+.fix-cafee-ca
+{
+    padding: 3px 0px ;
+}
+}
+
+@media (max-width: 1880px) /*PC*/
+{
+/* Banner */
+#Banner
+{
+    height: 500px;
+}
+ /* Categuries */
+ .fix-cafee-ca
+{
+    padding: 16px 0px;
+}
+/* NewstJob */
+#NewstJob
+{
+   height: 550px;
+}
+#NewstJobTitle h2
+{
+    font-size: 50px;
+}
+/* WebLog */
+#WebLog
+{
+    height: 700px;
+}
+/* Request */
+#Request
+{
+    height:500px ;
+}
+#RequestTitle h2
+{
+    font-size: 50px;
+}
+#RequestTitle p
+{
+    font-size: 20px;
+}
+.RequestInfo h3
+{
+    font-size: 24px;
+}
+}
+
+@media (max-width:1797px)/*fix*/
+{
+.fix-cafee-ca
+{
+    padding: 3px 0px;
+}
+}
+
+@media (max-width:1660px)/*fix*/
+{
+.fix-shop-ca
+{
+    padding: 3px 0px;
+}
+}
+
+@media (max-width:1440px) /*LapTop L*/
+{
+/* Banner */
+#Banner
+{
+    height: 450px;
+} 
+/* Categories */
+#CategoriesTitle
+{
+    height: 100px;
+}
+#CategoriesTitle h2
+{
+    font-size: 36px;
+}
+#CategoriesBox
+{
+    height: 200px;
+}
+#CategoriesBox h3
+{
+    font-size: 20px;
+}
+/* WebLog */
+#WebLog
+{
+    height: 570px;
+}
+.WeblogTitle h2
+{
+    font-size: 36px;
+}
+.WebLog-Info h3
+{
+    font-size: 24px;
+}
+/* Request */
+#Request
+{
+    height:450px;
+}
+#RequestTitle h2
+{
+    font-size: 36px;
+}
+#RequestTitle p
+{
+    font-size: 18px;
+}
+.RequestCard
+{
+    height: 350px;
+}
+.RequestInfo h3
+{
+    font-size: 20px;
+}
+/* NewstJob */
+#NewstJob
+{
+   height: 450px;
+}
+.Jobcard-UserImg
+{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+}
+.JobCard-Text h3
+{
+    text-align: center;
+    font-size: 20px;
+}
+.JobCard-Text p
+{
+    font-size: 14px;
+}
+#NewstJobTitle h2
+{
+    font-size: 40px;
+}
+#NewstJobTitle p
+{
+    font-size: 18px;
+}
+/* Offers */
+#Offers 
+{
+    height: 550px;
+}
+.OffersTitle 
+{
+    height: 80px;
+}
+.OffersTitle h2
+{
+    font-size: 36px;
+}
+}
+
+@media (max-width:1200px)
+{
+  /* Banner */
+#Banner
+{
+    height: 400px;
+} 
+/* Categories */
+#CategoriesTitle
+{
+    height: 90px;
+}
+#CategoriesTitle h2
+{
+    font-size: 34px;
+}
+#CategoriesBox
+{
+    height: 180px;
+}
+#CategoriesBox h3
+{
+    font-size: 18px;
+}
+/* WebLog */
+#WebLog
+{
+    height: 500px;
+}
+/* Request */
+#Request
+{
+    height:350px;
+}
+#RequestTitle h2
+{
+    font-size: 36px;
+}
+#RequestTitle p
+{
+    text-align: center;
+    font-size: 18px;
+}
+.RequestCard
+{
+    height: 300px;
+}
+.RequestInfo h3
+{
+    font-size: 20px;
+}
+/* NewstJob */
+#NewstJob
+{
+   height: 400px;
+}
+.Jobcard-UserImg
+{
+    width: 90px;
+    height: 90px;
+    margin-top: -45px;
+}
+/* Offers */
+#Offers 
+{
+    height: 500px;
+}  
+}
+
+@media (max-width: 1024px) /*LapTop*/
+{
+/* Banner */
+#Banner
+{
+    height: 350px;
+} 
+/* Categories */
+#CategoriesTitle
+{
+    height: 80px;
+}
+#CategoriesTitle h2
+{
+    font-size: 32px;
+}
+#CategoriesBox
+{
+    height: 150px;
+}
+#CategoriesBox h3
+{
+    font-size: 16px;
+}
+.fix-home-ca
+{
+    padding: 7px 0px ;
+}
+.fix-shop-ca
+{
+    padding:  7px 0px ;
+}
+.fix-cafee-ca
+{
+    padding:  7px 0px ;
+} 
+/* WebLog */
+#WebLog
+{
+    height: 450px;
+}
+.WeblogTitle h2
+{
+    font-size: 32px;
+}
+.WebLog-Info h3
+{
+    font-size: 20px;
+}
+/* Request */
+#Request
+{
+    height:300px;
+}
+#RequestTitle h2
+{
+    font-size: 24px;
+}
+#RequestTitle p
+{
+    font-size: 14px;
+}
+.RequestCard
+{
+    height: 200px;
+}
+.RequestInfo h3
+{
+    font-size: 16px;
+}
+/* NewstJob */
+#NewstJob
+{
+   height: 300px;
+}
+.Jobcard{
+    height: 270px;
+}
+.Jobcard-UserImg
+{
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+}
+.JobCard-Text h3
+{
+    text-align: center;
+    font-size: 16px;
+}
+.JobCard-Text p
+{
+    font-size: 10px;
+}
+#NewstJobTitle h2
+{
+    font-size: 30px;
+}
+#NewstJobTitle p
+{
+    font-size: 12px;
+}
+/* Offers */
+#Offers 
+{
+    height: 400px;
+}
+.OffersTitle 
+{
+    height: 80px;
+}
+.OffersTitle h2
+{
+    font-size: 32px;
+}
+}
+
+@media (max-width: 767px) 
+{
+#Banner
+{
+    height: 250px;
+}
+ /* Categuries */
+ #Categories
+ {
+    height:250px ;
+ }
+#CategoriesTitle h2
+{
+    font-size: 22px;
+}
+ #CategoriesBox h3
+{
+    font-size: 12px;
+}
+ #CategoriesTitle
+{
+    height: 50px;
+}
+ #CategoriesBox
+{
+    height:180px;
+}
+.CategoryBox
+{
+    width: 16%;
+}
+.fix-home-ca
+{
+    padding: 16px 0px ;
+}
+ .fix-cafee-ca
+{
+    padding:  16px 0px ;
+}
+.fix-shop-ca
+{
+    padding:  16px 0px;
+}
+/* WebLog */
+#WebLog
+{
+    height: 350px;
+}
+.WeblogTitle h2
+{
+    font-size: 28px;
+}
+.WebLog-Info h3
+{
+    font-size: 18px;
+}
+/* Request */
+#Request
+{
+    height:170px;
+}
+#RequestTitle h2
+{
+    font-size: 18px;
+}
+#RequestTitle p
+{
+    font-size: 12px;
+}
+.RequestCard
+{
+    height: 160px;
+}
+.RequestInfo h3
+{
+    font-size: 10px;
+}
+/* NewstJob */
+#NewstJob
+{
+   height: 250px;
+}
+.Jobcard
+{
+    height: 200px;
+}
+.Jobcard-UserImg
+{
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    border: 3px solid;
+}
+.JobCard-Text h3
+{
+    text-align: center;
+    font-size: 12px;
+}
+.JobCard-Text p
+{
+    font-size: 10px;
+}
+#NewstJobTitle h2
+{
+    font-size: 30px;
+}
+#NewstJobTitle p
+{
+    font-size: 14px;
+}
+/* Offers */
+#Offers 
+{
+    height: 300px;
+}
+.OffersTitle 
+{
+    height: 80px;
+}
+.OffersTitle h2
+{
+    font-size: 28px;
+}
+}
+
+@media (max-width : 640px)
+{
+    #NewstJob h2
+    {
+        font-size: 26px;
+    }
+    #Categories
+    {
+       height:200px ;
+    }
+    #CategoriesBox
+    {
+        height:170px !important;
+    }
+    .CategoryBox
+    {
+        width: 16%;
+    }
+    .JobCard-Text h3
+    {
+        font-size: 10px;
+    } 
+    #CategoriesBox
+    {
+        height: 150px;
+    }
+    .fix-home-ca
+    {
+        padding: 16px 0px ;
+    }
+    #WebLog
+    {
+        height: 400px;
+    }
+    #Request
+    {
+        height:250px;
+    }
+}
+
+@media (max-width : 425px)
+{
+    #Banner
+    {   
+        height: 200px;
+    }
+    #CategoriesBox
+    {
+        height: 140px !important;
+    }
+    .fix-home-ca
+    {
+        padding: 7px 0px ;
+    }
+    .fix-shop-ca
+    {
+        padding:  7px 0px ;
+    }
+    .fix-cafee-ca
+    {
+        padding:  7px 0px ;
+    }  
+}
+
+@media (max-width : 375px)
+{
+    #Banner
+    {   
+        height: 175px;
+    }
+    #CategoriesBox
+    {
+        height: 130px !important;
+    }
+    .CategoryBox
+    {
+        width: 18%;
+    }
+    .fix-home-ca
+    {
+        padding: 10px 0px ;
+    }
+    .fix-shop-ca
+    {
+        padding:  16px 0px ;
+    }
+    .fix-cafee-ca
+    {
+        padding:  10px 0px ;
+    }  
+}
+
+@media (max-width : 320px)
+{
+    #Banner
+    {   
+        height: 150px;
+    }
+    #CategoriesBox
+    {
+        height: 120px !important;
+    }
+    .CategoryBox
+    {
+        width: 20%;
+    }
+    .fix-home-ca
+    {
+        padding: 10px 0px ;
+    }
+    .fix-shop-ca
+    {
+        padding:  10px 0px ;
+    }
+    .fix-cafee-ca
+    {
+        padding:  10px 0px ;
+    }  
+}
