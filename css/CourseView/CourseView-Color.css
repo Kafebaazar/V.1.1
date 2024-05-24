@@ -1,0 +1,29 @@
+@import url(../Tools/Pallete.css);
+@import url(../Tools/Font.css);
+.MasterImg
+{
+    background-color : var(--BackColor);
+    border-color: var(--SecondaryColor);
+}
+.CourseInfo
+{
+    border-color:var(--LineColor);
+}
+.CourseInfo button
+{
+    background-color:var(--PrimaryColor);
+    color: var(--BackColor);
+}
+.CourseDescription , .CourseContent
+{
+    border-color:var(--LineColor);
+}
+.CourseContent
+{
+    background-color:var(--LineColor);
+}
+.CoursePart
+{
+    border-color : var(--TextColor);
+    background-color: var(--BackColor);
+}
