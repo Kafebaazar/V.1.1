@@ -1,0 +1,84 @@
+@import url(../Tools/Font.css);
+/* Content */
+#Content
+{
+    height: 1600px;
+}
+/* Content Filter */
+#ContentFilter
+{
+    border:3px solid ;
+    border-radius:16px;
+}
+.FilterHeader
+{
+    height: 100px;
+}
+.FilterHeader h2
+{
+    font-size: 40px;
+    font-weight: 900;
+}
+.FliterConent
+{
+    direction: rtl;
+}
+.FliterConent li
+{
+    padding: 0px 15px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom:3px solid;
+    transition:all 0.5s ease-in-out ;
+}
+.FliterConent li img
+{
+    width: 30px;
+    height: 30px;
+}
+.FliterConent li p , .FliterConent li img
+{
+    cursor: pointer;
+}
+.filter-open
+{
+    transition:all 0.5s ease-in-out ; 
+    height: 400px!important;
+}
+.FliterConent button
+{
+    width: 250px;
+    height: 80px;
+    font-size: 26px;
+    border-radius:16px;
+    border: 3px solid;
+}
+/* Content Sort */
+#ContentSort
+{
+    height: 120px;
+    border:3px solid ;
+    border-radius : 16px;
+}
+#ContentSort li
+{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+} 
+#ContentSort p
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Content List */
+#ContentList
+{
+    height: 1450px;
+}
+#ContentList .Jobcard
+{
+    height: 450px;
+}
+
