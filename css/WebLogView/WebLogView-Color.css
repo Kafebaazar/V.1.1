@@ -1,0 +1,20 @@
+@import url(../Tools/Pallete.css);
+@import url(../Tools/Font.css);
+/*  */
+.AoutherImg 
+{
+    background-color:var(--BackColor);
+    border-color:var(--SecondaryColor);
+}
+#WebLogContent ,
+#WebLogPreText ,
+.WebLogInfo
+{
+    border-color:var(--LineColor);
+}
+#Tags span
+{
+    border-color : var(--TextColor);
+    background-color : var(--LineColor);
+    color : var(--BlackColor);
+}
