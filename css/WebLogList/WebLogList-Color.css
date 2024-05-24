@@ -1,0 +1,8 @@
+@import url(../Tools/Pallete.css);
+@import url(../Tools/Font.css);
+/* WebLogSort */
+#WebLogSort
+{
+ background-color:var(--LineColor); 
+ border-color:var(--TextColor);  
+}
