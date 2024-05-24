@@ -1,0 +1,25 @@
+@import url(../Tools/Pallete.css);
+@import url(../Tools/Font.css);
+/*  */
+.UserImg 
+{
+    background-color:var(--BackColor);
+    border-color:var(--SecondaryColor);
+}
+#RequestDescription ,
+.RequestInfo
+{
+    border-color:var(--LineColor);
+}
+#SuggestBox button
+{
+    border-color : var(--LineColor);
+    color : var(--BackColor);
+    background-color :  var(--PrimaryColor);
+}
+#SuggestBox input
+{
+    background-color : var(--BackColor);
+    border-color : var(--LineColor);
+    color:var(--TextColor);
+}
