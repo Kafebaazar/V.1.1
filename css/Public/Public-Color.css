@@ -1,0 +1,99 @@
+@import url(../Tools/Pallete.css);
+@import url(../Tools/Font.css);
+
+/* Public */
+body 
+{
+    background-color:var(--BackColor);
+}
+.Line
+{
+    border-color: var(--LineColor);
+}
+.TabActive
+{
+ border-color : var(--PrimaryColor);
+ color : var(--PrimaryColor) !important;   
+}
+/* Header Nav */
+#AccountBox button
+{
+    background-color : var(--BackColor);
+    color: var(--PrimaryColor);
+    border-color :var(--PrimaryColor);
+}
+#AccountBox button:hover
+{
+    background-color : var(--PrimaryColor);
+    color: var(--WhiteColor);
+}
+
+#AddJobBox button
+{
+    background-color : var(--PrimaryColor);
+    color: var(--WhiteColor);
+    border-color :var(--PrimaryColor);
+}
+#AddJobBox button:hover
+{
+    background-color : var(--BackColor);
+    color: var(--PrimaryColor);
+    border-color :var(--PrimaryColor);
+}
+#TabBox a
+{
+    color : var(--TextColor);
+}
+/* Header Div */
+#LogInOutBox button ,#MobileLogInOutBox button 
+{
+    background-color : var(--BackColor);
+    color: var(--PrimaryColor);
+    border-color :var(--PrimaryColor);
+}
+#SearchBox>div p
+{
+    color : var(--BlackColor);
+}
+#SearchBox>div input
+{
+    direction: rtl;
+    background-color : var(--BackColor);
+    color: var(--TextColor);
+    border-color : var(--LineColor);
+}
+#SearchBox > a
+{
+    color : var(--BlackColor);
+}
+
+/* Footer */
+.SocialMedia p
+{
+    color: var(--BlackColor);
+}
+.SocialMedia a
+{
+    color : var(--BlackColor);
+}
+footer
+{
+    border-color:var(--LineColor);
+}
+footer ul
+{
+    height: 80px;
+}
+footer li a
+{
+    color : var(--TextColor);
+}
+footer li a:hover
+{
+    color : var(--PrimaryColor);
+}
+footer>div>p
+{
+    height: 60px;
+    font-size: 24px;
+}
