@@ -1,0 +1,348 @@
+@import url(../Tools/Font.css);
+
+@media (max-width: 1880px) /*PC*/
+{
+/*  */
+.InfoBoxShow p
+{
+    font-size: 28px;
+}
+.SocilaMediaLink a
+{
+    font-size: 20px;
+}
+/* ProfileContent */
+#ProfileGalleryView
+{
+    height: 1000px;
+}
+.SideImage div
+{
+    height: 31%;
+}
+.CenterVideo div
+{
+    height: 48%;
+}
+}
+
+@media (max-width:1440px) /*LapTop L*/
+{
+    #ProfileInfo
+    {
+        height: 350px;
+        margin-top: -100px;
+    }
+    .UserImg
+    {
+        width: 150px;
+        height: 150px;   
+    }
+    .UserInfo img
+    {
+        width: 40px;
+    }
+    .UserInfo h2 
+    {
+        font-size: 30px;
+    }
+    .UserInfo h3
+    {
+        font-size: 26px;
+    }
+    .ProfileInfoTop h2
+    {
+        font-size: 28px;
+    }
+    .ReportLink
+    {
+        font-size: 24px;
+    }
+/* ProfileContent */
+#ProfileGalleryView
+{
+    height: 900px;
+}
+#ProfileInfoView
+{
+    height: 800px;
+}
+.InfoBoxShow p
+{
+    font-size: 22px;
+}
+.SocilaMediaLink a
+{
+    font-size: 14px;
+}
+}
+
+@media (max-width: 1024px) /*LapTop*/
+{
+    #ProfileInfo
+    {
+        height: 300px;
+        margin-top: -80px;
+    }
+    .UserImg
+    {
+        width: 120px;
+        height: 120px;   
+    }
+    .UserInfo img
+    {
+        width: 30px;
+    }
+    .UserInfo h2 
+    {
+        font-size: 26px;
+    }
+    .UserInfo h3
+    {
+        font-size: 22px;
+    }
+    .ProfileInfoTop h2
+    {
+        font-size: 24px;
+    }
+    .ReportLink
+    {
+        font-size: 18px;
+    }
+/* ProfileContent */
+#ProfileGalleryView
+{
+    height: 750px;
+}
+#ProfileInfoView
+{
+    height: 600px;
+}
+.InfoBoxShow p
+{
+    font-size: 18px;
+}
+.SocilaMediaLink a
+{
+    font-size: 10px;
+}
+}
+
+@media (max-width: 768px)
+{
+    #ProfileInfo
+    {
+        height: 250px;
+        margin-top: -60px;
+    }
+    .UserImg
+    {
+        width: 90px;
+        height: 90px;   
+    }
+    .UserInfo img
+    {
+        width: 30px;
+    }
+    .UserInfo h2 
+    {
+        font-size: 22px;
+    }
+    .UserInfo h3
+    {
+        font-size: 18px;
+    }
+    .ProfileInfoTop h2
+    {
+        font-size: 22px;
+    }
+    .ReportLink
+    {
+        font-size: 14px;
+    }
+/* ProfileContent */
+#ProfileGalleryView
+{
+    height: 750px;
+}
+#ProfileInfoView
+{
+    height: 600px;
+}
+.InfoBoxShow p
+{
+    font-size: 16px;
+}
+.SocilaMediaLink a
+{
+    font-size: 13px;
+} 
+}
+
+@media (max-width: 640px)
+{
+    #ProfileInfo
+    {
+        height: 230px;
+        margin-top: -60px;
+    }
+    .UserInfo h2 
+    {
+        font-size: 20px;
+    }
+    .UserInfo h3
+    {
+        font-size: 16px;
+    }
+    .ProfileInfoTop h2
+    {
+        font-size: 20px;
+    }
+    .ReportLink
+    {
+        font-size: 12px;
+    }
+/* ProfileContent */
+#ProfileGalleryView
+{
+    height: 600px;
+}
+#ProfileInfoView
+{
+    height: 500px;
+}
+.InfoBoxShow p
+{
+    font-size: 14px;
+}
+.SocilaMediaLink a
+{
+    font-size: 10px;
+} 
+}
+
+@media (max-width: 576px)
+{
+    #ProfileInfo
+    {
+        height: 400px;
+        margin-top: -60px;
+    }
+    .UserImg
+    {
+        width: 90px;
+        height: 90px;   
+    }
+    .UserInfo img
+    {
+        width: 30px;
+    }
+    .UserInfo h2 
+    {
+        font-size: 22px;
+    }
+    .UserInfo h3
+    {
+        font-size: 18px;
+    }
+    .ProfileInfoTop h2
+    {
+        font-size: 22px;
+    }
+    .ReportLink
+    {
+        font-size: 14px;
+    }
+/* ProfileContent */
+#ProfileGalleryView
+{
+    height: 500px;
+}
+#ProfileInfoView
+{
+    height: 900px;
+}
+.InfoBoxShow p
+{
+    font-size: 16px;
+}
+.SocilaMediaLink a
+{
+    font-size: 13px;
+} 
+}
+
+@media (max-width: 425px)
+{
+    .UserInfo h2 
+    {
+        font-size: 20px;
+    }
+    .UserInfo h3
+    {
+        font-size: 16px;
+    }
+    .ProfileInfoTop h2
+    {
+        font-size: 20px;
+    }
+    .ReportLink
+    {
+        font-size: 12px;
+    }
+/* ProfileContent */
+#ProfileGalleryView
+{
+    height: 400px;
+}
+#ProfileInfoView
+{
+    height: 900px;
+}
+.InfoBoxShow p
+{
+    font-size: 14px;
+}
+.SocilaMediaLink a
+{
+    font-size: 11px;
+} 
+}
+
+@media (max-width: 320px)
+{
+    .UserInfo h2 
+    {
+        font-size: 16px;
+    }
+    .UserInfo h3
+    {
+        font-size: 12px;
+    }
+    .ProfileInfoTop h2
+    {
+        font-size: 16px;
+    }
+    .ReportLink
+    {
+        font-size: 8px;
+    }
+/* ProfileContent */
+#ProfileGalleryView
+{
+    height: 300px;
+}
+#ProfileInfoView
+{
+    height: 700px;
+}
+.InfoBoxShow p
+{
+    font-size: 12px;
+    font-weight: 500px;
+}
+.SocilaMediaLink a
+{
+    font-size: 8px;
+} 
+}
