@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <title>کف بازار | صفحه دوره</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <!-- Link Tools -->
+        <link rel="stylesheet" href="../css/Tools/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/Tools/bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="../css/Tools/bootstrap-grid.rtl.min.css">
+        <link rel="stylesheet" href="../css/Tools/owl.carousel.min.css">
+        <link rel="stylesheet" href="../css/Tools/owl.theme.default.min.css">
+        <!-- Course View Layout Style -->
+        <link rel="stylesheet" href="../css/CourseView/CourseView-Style.css">
+        <link rel="stylesheet" href="../css/CourseView/CourseView-Responsive.css">
+        <link rel="stylesheet" href="../css/CourseView/CourseView-Color.css">
+        <!-- Home layout Style -->
+        <link rel="stylesheet" href="../css/Home/Home-Style.css">
+        <link rel="stylesheet" href="../css/Home/Home-Responsive.css">
+        <link rel="stylesheet" href="../css/Home/Home-Color.css">
+        <!-- Public Layout Style -->
+        <link rel="stylesheet" href="../css/Public/Public-Style.css">
+        <link rel="stylesheet" href="../css/Public/Public-Responsive.css">
+        <link rel="stylesheet" href="../css/Public/Public-Color.css">
+
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="myContainer d-flex flex-column">
+            <!-- Main Header -->
+            <div id="MainHeader">
+                <!-- Nav -->
+                <nav class="d-flex row m-0 w-100 Line">
+                    <div id="AccountBox" class="col-lg-3 col-md-3 col-3 h-100 d-flex justify-content-center align-items-center ">
+                        <a href="Accounting.html">
+                            <button onmouseenter="ChangeAccountIcon('In')" onmouseleave="ChangeAccountIcon('Out')" type="button">پنل کاربری <img id="Account_icon" src="../icon/User-Blue.png" alt="User Default Image"> </button>
+                        </a>
+                    </div>
+                    <div id="AddJobBox" class="col-lg-4 col-md-3 col-3 h-100 d-flex justify-content-center align-items-center  ">
+                        <a href="Accounting.html">
+                            <button type="button"> ! کسب و کارت را ثبت کن</button>
+                        </a> 
+                    </div>
+                    <div id="TabBox" class="col-lg-5 col-md-6 col-6 h-100 d-flex p-0">
+                        <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
+                            <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center " onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Training')"> آموزش </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="#" id="TabAboutUs" class="h-100 d-flex align-items-center " onclick="TabFocuse('AboutUs')"> درباره ما </a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /Nav -->
+                <div  class="d-flex row m-0 w-100  Line">
+                    <div id="LogInOutBox" class="d-flex row col-3 col-md-3 p-0 m-0 align-items-center justify-content-center ">
+                        <a href="Accounting.html" class="w-auto">
+                            <button type="button"> ورود یا ثبت نام <img src="../icon/login.png" alt="Login LogOut Image"> </button>
+                        </a>
+                    </div>
+                    <div id="SearchBox" class="d-flex px-1 flex-column col-6 col-md-6 justify-content-center align-items-end ">
+                        <div class="m-0  d-flex row w-100 justify-content-center align-items-baseline">
+                            <p class="d-flex row-cols-auto justify-content-end align-items-center col-4 ">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
+                            <input class="col-8" type="search" placeholder="جستجو...">
+                        </div>
+                        <a href="Accounting.html" class="d-flex justify-content-end ">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
+                    </div>
+                    <div id="LogoBox" class="d-flex justify-content-center align-items-center col-3 col-md-3 ">
+                        <h1><a href="Home.html"><img class="img-fluid w-auto h-75" src="../icon/LogoSite/KaffeBazarIcon-01.png" alt="KaffeBazarIcon"></a></h1> 
+                    </div>
+                </div>
+            </div>
+            <!-- /Main Header -->
+            <!-- Mobile Header -->
+            <div id="MobileHeader" class="row justify-content-center align-items-center m-0 w-100 Line">
+                <div  class="d-flex row h-60 m-0 p-0 w-100  Line">
+                    <div id="MobileLogInOutBox" class="d-flex row col-2 p-0 m-0 align-items-center justify-content-center ">
+                        <a href="Accounting.html" class="w-auto d-flex justify-content-center align-items-center">
+                            <button type="button" class="rounded-circle"><img src="../icon/User-Blue.png" alt="Login LogOut Image"></button>
+                        </a>
+                    </div>
+                    <div id="SearchBox" class="d-flex flex-column col-sm-7 col-8 px-1 py-2 justify-content-center align-items-end ">
+                        <div class="mx-0 my-1 d-flex row w-100 justify-content-center align-items-baseline">
+                            <p class="d-flex row-cols-auto justify-content-end align-items-center col-3">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
+                            <input class="col-9" type="search" placeholder="جستجو...">
+                        </div>
+                        <a href="Accounting.html" class="d-flex row-cols-auto justify-content-end">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
+                    </div>
+                    <div id="LogoBox" class="d-flex justify-content-center align-items-center col-sm-3 col-2">
+                        <h1><a href="Home.html"><img class="img-fluid w-auto h-75" src="../icon/LogoSite/MobileLogo.png" alt="KaffeBazarIcon"></a></h1> 
+                    </div>
+                </div>
+                <div id="TabBox" class="col-11 h-40 d-flex p-0">
+                    <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
+                        <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center " onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Training')"> آموزش </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="#" id="TabAboutUs" class="h-100 d-flex align-items-center " onclick="TabFocuse('AboutUs')"> درباره ما </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /Mobile Header -->
+        </header>
+        <!-- /Header -->
+        <!-- Banner -->
+        <section id="Banner" class="myContainer m-0 p-3  d-flex row justify-content-center align-items-center">
+            <img src="../img/Banner/BannerNull.png" alt="Banner Default" class="img-fluid h-100 w-100">
+        </section>
+        <!-- /Banner -->
+        <!-- Content -->
+        <section id="Content" class="myContainer d-flex row">
+            <!-- Course Info -->
+            <section id="CourseInfo" class="col-lg-4 col-md-5 col-12 pb-4 px-0 d-flex flex-column justify-content-between align-items-center">
+                <div class="MasterImg rounded-circle">
+                    <img class="img-fluid w-100 h-100" src="../img/User/UserNull.png" alt="">
+                </div>
+                <div class="CourseInfo col-xxl-10 col-xl-11 col-lg-12 col-10 py-3 my-3 d-flex flex-column justify-content-start align-items-center">
+                    <h1>عنوان آموزش</h1>
+                    <p>نام استاد</p>
+                    <ul class="list-unstyled w-100 px-4 d-flex flex-column align-items-md-end align-items-sm-center">
+                        <li class="col-md-12 ">تاریخ نشر : 1402/04/26</li>
+                        <li class="col-md-12 ">تعداد ویدئو ها : 7 ویدوئو</li>
+                        <li class="col-md-12 ">زمان آموزش  : 5 ساعت</li>
+                        <li class="col-md-12 ">سطح آموزش : مقدماتی</li>
+                        <li class="col-md-12 ">وضعیت آموزش :  درحال برگزاری</li>
+                        <li class="col-md-12 ">تعداد دانشجویان : 17 نفر</li>
+                        <li class="col-md-12 ">تاریخ اخرین بروزرسانی : 1402/11/02</li>
+                        <li class="col-md-12 ">نوع دوره  : رایگان</li>
+                    </ul>
+                    <button type="button" class="button col-8">ثبت نام در این آموزش</button>
+                </div>
+            </section>
+            <!-- /Course Info -->
+            <!-- Course Coontent -->
+            <section id="CourseContent" class="col-lg-8 col-md-7 col-sm-12 pt-md-5 pt-sm-1 mt-5 d-flex flex-column justify-content-between align-items-center">
+                <div class="CourseDescription p-3 col-xxl-11  col-12">
+                    <p class="text-center">توضیحات مربوط به آموزش</p>
+                </div>
+                <div class="CourseContent px-4 py-0 col-xxl-11  col-12">
+                    <div class="CoursePart  w-100 my-3 d-flex flex-row-reverse row m-0">
+                        <div class="CoursePartVideo col-xl-4 col-sm-3 col-12 d-flex align-items-center justify-content-center ">
+                            <img class="w-100 h-75" src="../img/Video.png" alt="">
+                        </div>
+                        <div class="CoursePartDescription col-xl-8 col-sm-9 col-12  d-flex flex-column justify-content-between p-3">
+                            <h2>عنوان جلسه</h2>
+                            <p>متنن تصادفی برای توضیحات مربوز به این قسمت از دوره که در این بخش نمایش داده خواهد شد.</p>
+                            <div class="col-12  p-0 d-flex row  align-items-center justify-content-between">
+                                <p class="col-6 h-100  m-0 d-flex  align-items-center text-start fw-bold">زمان جلسه : 45 دقیقه</p> 
+                                <div class="col-6 h-100 m-0  d-flex row p-0 align-items-center justify-content-end">
+                                    <img class="img-fluid h-75  align-items-center col-5" src="../icon/Intraction/Share.png" alt="">
+                                    <img class="img-fluid h-75  align-items-center col-5" src="../icon/Intraction/Download.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="CoursePart  w-100 my-3 d-flex flex-row-reverse row m-0">
+                        <div class="CoursePartVideo col-xl-4 col-sm-3 col-12 d-flex align-items-center justify-content-center ">
+                            <img class="w-100 h-75" src="../img/Video.png" alt="">
+                        </div>
+                        <div class="CoursePartDescription col-xl-8 col-sm-9 col-12  d-flex flex-column justify-content-between p-3">
+                            <h2>عنوان جلسه</h2>
+                            <p>متنن تصادفی برای توضیحات مربوز به این قسمت از دوره که در این بخش نمایش داده خواهد شد.</p>
+                            <div class="col-12  p-0 d-flex row  align-items-center justify-content-between">
+                                <p class="col-6 h-100  m-0 d-flex  align-items-center text-start fw-bold">زمان جلسه : 45 دقیقه</p> 
+                                <div class="col-6 h-100 m-0  d-flex row p-0 align-items-center justify-content-end">
+                                    <img class="img-fluid h-75  align-items-center col-5" src="../icon/Intraction/Share.png" alt="">
+                                    <img class="img-fluid h-75  align-items-center col-5" src="../icon/Intraction/Download.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="CoursePart  w-100 my-3 d-flex flex-row-reverse row m-0">
+                        <div class="CoursePartVideo col-xl-4 col-sm-3 col-12 d-flex align-items-center justify-content-center ">
+                            <img class="w-100 h-75" src="../img/Video.png" alt="">
+                        </div>
+                        <div class="CoursePartDescription col-xl-8 col-sm-9 col-12  d-flex flex-column justify-content-between p-3">
+                            <h2>عنوان جلسه</h2>
+                            <p>متنن تصادفی برای توضیحات مربوز به این قسمت از دوره که در این بخش نمایش داده خواهد شد.</p>
+                            <div class="col-12  p-0 d-flex row  align-items-center justify-content-between">
+                                <p class="col-6 h-100  m-0 d-flex  align-items-center text-start fw-bold">زمان جلسه : 45 دقیقه</p> 
+                                <div class="col-6 h-100 m-0  d-flex row p-0 align-items-center justify-content-end">
+                                    <img class="img-fluid h-75  align-items-center col-5" src="../icon/Intraction/Share.png" alt="">
+                                    <img class="img-fluid h-75  align-items-center col-5" src="../icon/Intraction/Download.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="CoursePart  w-100 my-3 d-flex flex-row-reverse row m-0">
+                        <div class="CoursePartVideo col-xl-4 col-sm-3 col-12 d-flex align-items-center justify-content-center ">
+                            <img class="w-100 h-75" src="../img/Video.png" alt="">
+                        </div>
+                        <div class="CoursePartDescription col-xl-8 col-sm-9 col-12  d-flex flex-column justify-content-between p-3">
+                            <h2>عنوان جلسه</h2>
+                            <p>متنن تصادفی برای توضیحات مربوز به این قسمت از دوره که در این بخش نمایش داده خواهد شد.</p>
+                            <div class="col-12  p-0 d-flex row  align-items-center justify-content-between">
+                                <p class="col-6 h-100  m-0 d-flex  align-items-center text-start fw-bold">زمان جلسه : 45 دقیقه</p> 
+                                <div class="col-6 h-100 m-0  d-flex row p-0 align-items-center justify-content-end">
+                                    <img class="img-fluid h-75  align-items-center col-5" src="../icon/Intraction/Share.png" alt="">
+                                    <img class="img-fluid h-75  align-items-center col-5" src="../icon/Intraction/Download.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Course Coontent -->
+        </section>
+        <!-- /Content -->
+        <!-- Recommended -->
+        <section id="Recommended" class="myContainer py-2 my-4 d-flex row justify-content-start align-items-center">
+            <h2 class="col-12 my-4 d-flex justify-content-end">درخواست های مرتبط به این دروه</h2>
+            <div class="col-12 d-flex row m-0 flex-nowrap justify-content-start align-items-center ">
+                <div class="col-sm-3 col-4 mx-sm-0 p-sm-2 px-1">
+                    <a href="RequestView.html">
+                        <div class="RequestCard d-flex flex-column">
+                            <div class="RequestImg w-100 h-75">
+                                <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                            </div>
+                            <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان درخواست</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-4 mx-sm-0 p-sm-2 px-1">
+                    <a href="RequestView.html">
+                        <div class="RequestCard d-flex flex-column">
+                            <div class="RequestImg w-100 h-75">
+                                <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                            </div>
+                            <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان درخواست</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-4 mx-sm-0 p-sm-2 px-1">
+                    <a href="RequestView.html">
+                        <div class="RequestCard d-flex flex-column">
+                            <div class="RequestImg w-100 h-75">
+                                <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                            </div>
+                            <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان درخواست</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-4 mx-sm-0 p-sm-2 px-1">
+                    <a href="RequestView.html">
+                        <div class="RequestCard d-flex flex-column">
+                            <div class="RequestImg w-100 h-75">
+                                <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                            </div>
+                            <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان درخواست</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- /Recommended -->
+        <!-- Footer -->
+        <footer class="myContainer d-flex row">
+            <div class="col-6 h-100 p-1 d-flex flex-column align-items-center ">
+                <div class="Certificate py-4 col-12 h-50 d-flex row justify-content-center align-items-start Line">
+                    <div class="col-4 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid h-100" src="../img/Certifiate/Enamad.png" alt="">
+                    </div>
+                    <div class="col-4 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid h-100" src="../img/Certifiate/Etemad.png" alt="">
+                    </div>
+                    <div class="col-4 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid h-100" src="../img/Certifiate/samandehi.png" alt="">
+                    </div>
+                </div>
+                <div class="SocialMedia col-12 h-50 d-flex flex-column align-items-center justify-content-between">
+                    <p>ما را در شبکه های اجتماعی دنبال کنبد</p>
+                    <div class="d-flex row justify-content-center align-items-center">
+                        <img class="col-2 mx-1 h-auto img-fluid" src="../icon/SocialMedia/instagram.png" alt="SocialMedia">
+                        <img class="col-2 mx-1 h-auto img-fluid" src="../icon/SocialMedia/aparat.png" alt="SocialMedia">
+                        <img class="col-2 mx-1 h-auto img-fluid" src="../icon/SocialMedia/youtube.png" alt="SocialMedia">
+                    </div>
+                    <p class="text-center"> .استفاده از سایت مشروط بر پذیرش <a href=""> توافق نامه کاربری</a> و <a href=""> حفظ حریم شخصی </a> است</p>
+                </div>
+                <div></div>
+            </div>
+            <div class="col-6 h-100 p-1 d-flex flex-column align-items-center ">
+                <ul class="list-unstyled col-lg-10 col-md-12 d-flex row-cols-auto flex-row-reverse justify-content-between ">
+                    <li class="d-flex h-100 align-items-end"><a href="Home.html" class="h-100 d-flex align-items-center " > صفحه اصلی  </a></li>
+                    <li class="d-flex h-100 align-items-end"><a href="Categories.html" class="h-100 d-flex align-items-center " > دسته بندی </a></li>
+                    <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" class="h-100 d-flex align-items-center " > وب لاگ </a></li>
+                    <li class="d-flex h-100 align-items-end"><a href="CourseList.html" class="h-100 d-flex align-items-center " > آموزش </a></li>
+                    <li class="d-flex h-100 align-items-end"><a href="#" class="h-100 d-flex align-items-center " > درباره ما </a></li>
+                </ul>
+                <div class="col-lg-10 col-md-12 h-50 d-flex flex-column justify-content-center align-items-center rounded-4">
+                    <iframe class="rounded-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1898.0431353990577!2d54.44979024266524!3d36.86365801501599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f833633d76bc3b5%3A0x61dcf80fe547b93e!2sIslamic%20Azad%20University%2C%20Gorgan%20Branch!5e0!3m2!1sen!2s!4v1706352942517!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <p class="Address col-lg-10 col-md-12 d-flex align-items-center justify-content-center">آدرس : گلستان ، گرگان ، دانشگاه آزاد اسلامی گرگان ، مرکز رشد</p>
+            </div>
+        </footer>
+        <!-- /Footer -->
+    </body>
+    <script src="../js/Tools/jquery-3.7.1.min.js"></script>
+    <script src="../js/Tools//bootstrap.min.js"></script>
+    <script src="../js/Tools//bootstrap.bundle.min.js"></script>
+    <script src="../js/Tools//owl.carousel.min.js"></script>
+    <script src="../js/Home/Home-Script.js"></script>
+</html>
