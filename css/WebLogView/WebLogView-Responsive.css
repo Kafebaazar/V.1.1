@@ -1,0 +1,132 @@
+@import url(../Tools/Font.css);
+
+@media (max-width: 1880px) /*PC*/
+{
+#WebLogInfo
+{
+    margin-top: -90px;
+    height: 350px;
+}
+.AoutherImg
+{
+    width: 150px;
+    height: 150px;
+}
+.WebLogInfo h1 
+{
+    font-size: 26px;
+}
+.WebLogInfo h2 
+{
+    font-size: 20px;
+}
+#Tags p
+{
+   font-size: 24px; 
+}
+#Tags span
+{
+    font-size: 20px;
+}
+}
+
+@media (max-width: 1024px) /*PC*/
+{
+#WebLogInfo
+{
+    margin-top: -90px;
+    height: 350px;
+}
+.AoutherImg
+{
+    width: 130px;
+    height: 130px;
+}
+.WebLogInfo h1 
+{
+    font-size: 25px;
+}
+.WebLogInfo h2 
+{
+    font-size: 20px;
+}
+.WebLogInfo img 
+{
+    width: 25px;
+}
+#Tags p
+{
+   font-size: 20px; 
+}
+#Tags span
+{
+    font-size: 14px;
+}
+}
+
+@media (max-width: 767px)
+{
+    #WebLogInfo
+    {
+        margin-top: -90px;
+        height: 600px;
+    }
+    .AoutherImg
+    {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 30px;
+    }
+    .WebLogInfo
+    {
+        max-height: 150px;
+    }
+    .WebLogInfo img
+    {
+        width: 40px;
+    }
+    .WebLogInfo h1 
+    {
+        font-size: 25px;
+    }
+    .WebLogInfo h2 
+    {
+        font-size: 20px;
+    }
+    .WebLogPreText
+    {
+        height: 300px !important;
+    }
+    #Tags p
+    {
+       font-size: 20px; 
+    }
+    #Tags span
+    {
+        font-size: 14px;
+    } 
+}
+
+@media (max-width: 576px)
+{
+    #Tags p
+    {
+       font-size: 14px; 
+    }
+    #Tags span
+    {
+        font-size: 12px;
+    } 
+}
+
+@media (max-width: 425px)
+{
+    #Tags p
+    {
+       font-size: 12px; 
+    }
+    #Tags span
+    {
+        font-size: 10px;
+    } 
+}
