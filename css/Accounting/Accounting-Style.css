@@ -1,0 +1,201 @@
+@import url(../Tools/Font.css);
+#Content
+{
+    height: 1800px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#AccountingTabs
+{
+    height: 80px;
+    border:3px solid;
+    border-radius : 16px;
+}
+/* #AccountingTabs li 
+{
+    width: 14%;
+} */
+#AccountingTabs a
+{
+    direction: rtl;
+    font-size: 28px;
+    font-weight: 100;
+}
+#AccountingTabs h2
+{
+    direction: rtl;
+}
+#AccountingTabs li
+{
+    height: 100px;
+}
+/* JobProfile */
+.JobProfileBanner
+{
+    height: 450px;
+    border:3px solid;
+    border-radius: 16px;
+}
+.JobProfileInfo
+{
+    height: 200px;
+}
+.JobProfileUserImg
+{
+    margin-top: -140px;
+    width: 175px;
+    height: 175px;
+    border:5px solid;
+}
+.JobProfileInfo input
+{
+    border-radius: 16px;
+    border:3px solid;
+    font-size: 22px;
+}
+.JobProfileInfoTop h3
+{
+    cursor:pointer;
+}
+#ProfileGalleryView ,#ProfileInfoView
+{
+    height: 1000px;
+} 
+#ProfileGalleryView > div > div
+{
+    border : 3px solid;
+    border-radius: 16px;
+}
+#ProfileInfoView input
+{
+    direction: rtl;
+    border-radius : 16px;
+    border: 3px solid;
+    font-size: 22px;
+}
+#ProfileInfoView a
+{
+    font-size: 16px;
+    text-align: right;
+}
+
+/* User Info */
+.UserInfo > div
+{
+    height: 80px;
+}
+.UserInfo > div > label
+{
+    font-size: 22px;
+}
+.UserInfo > div > input
+{
+    direction: rtl;
+    font-size: 22px;
+    border-radius :8px;
+    height: 60px;
+}
+.UserInfo img
+{
+    cursor: pointer;
+}
+.UserCertificate p
+{
+    font-size: 38px;
+    font-weight: 700;
+}
+.UserCertificate button
+{
+    width: 500px;
+    height: 100px;
+    border: 3px solid ;
+    border-radius : 16px;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* Notif */
+.NotifCard
+{
+    height: 150px;
+    border-radius :8px;
+    border: 3px solid;
+}
+.NotifCard>div
+{
+    direction: rtl;
+}
+.NotifCard>div h2
+{
+    font-size: 36px;
+}
+.NotifCard>div p
+{
+    font-size: 20px;
+}
+#MailPos
+{
+    cursor: pointer;
+    width: 70px;
+    height: 60px;
+}
+/* Course */
+.CourseSort
+{
+    height: 120px;
+    font-size: 30px;
+    border-radius : 16px;
+    border:3px solid;
+}
+.CorseList>div>a
+{
+    border-radius : 16px;
+    border:3px solid;
+    font-size: 22px;
+}
+/* License */
+#License  a
+{
+    border : 3px solid;
+    border-radius:16px;
+}
+#License  a:hover
+{
+    border: 5px solid ; 
+}
+#License h2
+{
+    font-size: 275px;
+    font-weight: bolder;
+}
+#License p
+{
+    font-size: 36px;
+    font-weight: 800;
+}
+#License span
+{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.LicenseSelect
+{
+    border: 5px solid !important; 
+}
+#License button
+{
+    height: 100px;
+    font-size: 36px;
+    font-weight: 700;
+    border-radius:16px;
+    border : 3px solid;
+}
+.LicenseDescription
+{
+    font-size: 32px;
+}
+/* Setting */
+#Setting p , #ManageAccount p
+{
+    font-size: 80px;
+}
