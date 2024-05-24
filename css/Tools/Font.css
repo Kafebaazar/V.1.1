@@ -1,0 +1,88 @@
+/* Vazir */
+@font-face {
+    font-family: Vazir-Black;
+    /* ttf */
+    src: url(../../font/Vazir/Vazir-Black-FD.ttf);
+    /* woff */
+    src: url(../../font/Vazir/Vazir-Black-FD.woff);
+  }
+@font-face
+{
+    font-family: Vazir-Bold;
+    /* ttf */
+    src: url(../../font/Vazir/Vazir-Bold-FD.ttf);
+    /* woff */
+    src: url(../../font/Vazir/Vazir-Bold-FD.woff);
+}
+@font-face
+{
+    font-family: Vazir-Light;
+    /* ttf */
+    src: url(../../font/Vazir/Vazir-Light-FD.ttf);
+    /* woff */
+    src: url(../../font/Vazir/Vazir-Light-FD.woff);
+}
+@font-face
+{
+    font-family: Vazir-Medium;
+    /* ttf */
+    src: url(../../font/Vazir/Vazir-Medium-FD.ttf);
+    /* woff */
+    src: url(../../font/Vazir/Vazir-Medium-FD.woff);
+}
+@font-face
+{
+    font-family: Vazir-Regular;
+    /* ttf */
+    src: url(../../font/Vazir/Vazir-Regular-FD.ttf);
+    /* woff */
+    src: url(../../font/Vazir/Vazir-Regular-FD.woff);
+}
+@font-face
+{
+    font-family: Vazir-Thin;
+    /* ttf */
+    src: url(../../font/Vazir/Vazir-Thin-FD.ttf);
+    /* woff */
+    src: url(../../font/Vazir/Vazir-Thin-FD.woff);
+}
+
+
+/*  */
+
+a
+{
+    text-decoration: none;
+    color:transparent;
+    font-family: Vazir-Bold !important;
+}
+h1 , h2 , h3 
+{
+    cursor: default;
+    font-family: Vazir-Bold !important;
+}
+h4 
+{
+    cursor: default;
+    font-family: Vazir-Thin !important;
+}
+p
+{
+    cursor: default;
+    font-family: Vazir-Regular !important;
+}
+ul , input
+{
+    font-family: Vazir-Regular !important;
+}
+.button
+{
+    cursor: pointer;
+    font-family: Vazir-Regular !important;
+    border: 1px solid;
+}
+label
+{
+    cursor: default;
+    font-family: Vazir-Regular !important; 
+}
