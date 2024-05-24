@@ -1,0 +1,195 @@
+@import url(../Tools/Font.css);
+.CategoryBox
+{
+    width: 8%;
+}
+.swiper-slide
+{
+    width: 80%;
+}
+/* Banner */
+#Banner
+{
+    height: 500px;
+}
+/* Categories Title */
+#CategoriesTitle
+{
+    height: 120px;
+}
+
+#CategoriesBox
+{
+    direction: rtl;
+    overflow-x:auto;
+    height: 250px;
+}
+.fix-home-ca
+{
+    padding: 16px 0px;
+}
+.fix-cafee-ca
+{
+    padding: 16px 0px;
+}
+.fix-shop-ca
+{
+    padding: 16px 0px; 
+}
+#CategoriesBox .Category
+{
+    border: 3px solid;
+    border-radius : 8px;
+}
+#CategoriesBox h3
+{
+    cursor: pointer;
+    font-size: 22px;
+}
+/* NewstJob */
+#NewstJob
+{
+   height: 600px;
+}
+.Jobcard
+{
+    height: 90%;
+}
+.JobCard-Img img
+{
+    border-top-left-radius : 8px;
+    border-top-Right-radius : 8px;
+}
+.JobCard-Img
+{
+    border-bottom : none;
+    border-left : 3px solid;
+    border-right : 3px solid;
+    border-top : 3px solid;
+    border-top-left-radius : 8px;
+    border-top-Right-radius : 8px;
+}
+.JobCard-Info
+{
+    border-bottom : 3px solid;
+    border-left : 3px solid;
+    border-right : 3px solid;
+    border-top : none;
+    border-bottom-left-radius : 8px;
+    border-bottom-Right-radius : 8px;
+}
+.Jobcard-UserImg
+{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    border:5px solid;
+}
+.JobCard-Text h3
+{
+    font-size: 28px;
+}
+.JobCard-Text p
+{
+    font-size: 18px;
+}
+#NewstJobTitle h2
+{
+    font-size: 60px;
+}
+#NewstJobTitle p
+{
+font-size: 22px;
+}
+/* WebLog */
+#WebLog
+{
+    height: 800px;
+}
+.WeblogTitle 
+{
+    height: 100px;
+}
+.WeblogTitle h2
+{
+    font-size: 40px;
+}
+.WebLogBox
+{
+    direction: rtl;
+    overflow-x: auto;
+    height: 700px;
+}
+.WebLogBox>div
+{
+    height: 85%;
+}
+.WeblogCard
+{
+ height: 95%;
+ border-radius : 8px;
+ border : 3px solid;
+}
+.WebLog-Img img
+{
+    border-top-left-radius : 8px;
+    border-top-Right-radius : 8px;
+}
+.WebLog-Info h3
+{
+    font-size: 30px;
+}
+/* Request */
+#Request
+{
+    height:550px ;
+}
+#RequestBox
+{
+    direction: rtl;
+    overflow-x: auto;
+}
+.RequestCard
+{
+    height: 400px;
+    border-radius : 8px;
+    border: 3px solid ;
+}
+.RequestImg img
+{
+    border-top-left-radius : 8px;
+    border-top-Right-radius : 8px; 
+}
+#RequestTitle h2
+{
+    cursor: pointer;
+    font-size: 60px;
+}
+#RequestTitle p
+{
+    cursor: pointer;
+    font-size: 22px;
+}
+.RequestInfo h3
+{
+    cursor: pointer;
+    font-size: 30px;
+}
+/* Offers */
+#Offers 
+{
+    height: 700px;
+}
+.OffersBox
+{
+    direction: rtl;
+    overflow-x: auto;
+}
+.OffersTitle 
+{
+    height: 100px;
+}
+.OffersTitle h2
+{
+    font-size: 40px;
+}
