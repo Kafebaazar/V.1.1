@@ -1,0 +1,34 @@
+@import url(../Tools/Font.css);
+@import url(../Tools/Pallete.css);
+/* Content Filter */
+#ContentFilter
+{
+    border-color:var(--TextColor);  
+    background-color: var(--LineColor);
+}
+.FliterConent li
+{
+    border-color : var(--TextColor);
+}
+.FliterConent li p:hover
+{
+    color: var(--PrimaryColor);
+}
+.FliterConent button
+{
+    background-color:var(--LineColor);
+    color: var(--BlackColor);
+    border-color:var(--PrimaryColor);
+}
+.FliterConent button:hover
+{
+    background-color:var(--PrimaryColor);
+    color: var(--BackColor);
+    border-color:var(--LineColor);
+}
+/* ContentSort */
+#ContentSort
+{
+    border-color:var(--TextColor);  
+    background-color: var(--LineColor);
+}
