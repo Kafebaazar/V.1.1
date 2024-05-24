@@ -1,0 +1,78 @@
+@import url(../Tools/Font.css);
+/* ProfileInfo */
+#ProfileInfo
+{
+    height: 400px;
+    margin-top: -120px;
+}
+.UserImg
+{
+    width: 175px;
+    height: 175px;
+    border : 5px solid;
+}
+.UserInfo
+{
+    border-radius : 12px;
+    border : 2px solid ;
+}
+.UserInfo img
+{
+    cursor: pointer;
+    width: 50px;
+}
+.ProfileInfoTop h2
+{
+    cursor: pointer;
+    font-size: 32px;
+}
+.ReportLink
+{
+    font-size: 28px;
+}
+/* ProfileContent */
+#ProfileGalleryView
+{
+    height: 1200px;
+}
+#ProfileInfoView
+{
+    height: 1000px;
+}
+    /* Gallery */
+    .CenterVideo>div
+    {
+        height: 500px;
+        border-radius : 16px;
+        border:3px solid;
+    }
+    .SideImage div
+    {
+        height: 31%;
+        border-radius : 16px;
+        border:3px solid;
+    }
+    .CenterVideo div
+    {
+        height: 48%;
+        border-radius : 16px;
+        border:3px solid;
+    }
+    /* Info */
+    .InfoBoxShow
+    { 
+       border : 3px solid ;
+       border-radius : 16px;
+       background : transparent; 
+    }
+    .InfoBoxShow p
+    {
+        text-align: center;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .SocilaMediaLink a
+    {
+        font-size: 24px;
+
+    }
