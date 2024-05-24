@@ -1,0 +1,208 @@
+@import url(../Tools/Font.css);
+
+@media (max-width: 1880px) /*PC*/
+{
+    #RequestInfo
+    {
+        margin-top: -90px;
+        height: 350px;
+    }
+    .UserImg
+    {
+        width: 150px;
+        height: 150px;
+    }
+    .RequestInfo h1
+    {
+        font-size: 26px;
+    }
+    .RequestInfo h2
+    {
+        font-size: 20px;
+    }
+    /* SuggestBox */
+    #SuggestBox
+    {
+        height: 800px;
+    }
+    #SuggestTitle
+    {
+        height: 100px;
+    }
+    #SuggestText
+    {
+        height: 450px;
+    }
+}
+
+@media (max-width:1440px) /*LapTop L*/
+{
+    #RequestInfo
+    {
+        margin-top: -70px;
+        height: 300px;
+    }
+    .UserImg
+    {
+        width: 120px;
+        height: 120px;
+    }
+    .RequestInfo h1
+    {
+        font-size: 22px;
+    }
+    .RequestInfo h2
+    {
+        font-size: 18px;
+    }
+    /* SuggestBox */
+    #SuggestBox
+    {
+        height: 650px;
+    }
+    #SuggestTitle
+    {
+        height: 80px;
+    }
+    #SuggestText
+    {
+        height: 400px;
+    }
+}
+
+@media (max-width: 1024px) /*LapTop*/
+{
+    #RequestInfo
+    {
+        margin-top: -70px;
+        height: 300px;
+    }
+    .UserImg
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .RequestInfo h1
+    {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .RequestInfo h2
+    {
+        margin-top: 10px;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    /* SuggestBox */
+    #SuggestBox
+    {
+        height: 650px;
+    }
+    #SuggestTitle
+    {
+        height: 80px;
+    }
+    #SuggestText
+    {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) /*LapTop*/
+{
+    #RequestInfo
+    {
+        margin-top: -90px;
+        height: 600px;
+    }
+    .RequestInfo
+    {
+        max-height: 150px;
+    }
+    .UserImg
+    {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 30px;
+    }
+    .RequestInfo h1
+    {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .RequestInfo h2
+    {
+        margin-top: 10px;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .requestText
+    {
+        height: 300px !important;
+    }
+    /* SuggestBox */
+    #SuggestBox
+    {
+        height: 650px;
+    }
+    #SuggestTitle
+    {
+        height: 80px;
+    }
+    #SuggestText
+    {
+        height: 350px;
+    }
+}
+
+@media (max-width: 576px) /*LapTop*/
+{
+    #RequestInfo
+    {
+        margin-top: -70px;
+        height: 500px;
+    }
+    .RequestInfo
+    {
+        max-height: 150px;
+    }
+    .UserImg
+    {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 425px) /*LapTop*/
+{
+    #RequestInfo
+    {
+        margin-top: -60px;
+        height: 450px;
+    }
+    .UserImg
+    {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 30px;
+    }
+    /* SuggestBox */
+    #SuggestBox
+    {
+        height: 650px;
+    }
+    #SuggestTitle input
+    {
+       font-size: 16px;
+    }
+    #SuggestText input
+    {
+        font-size: 16px;
+    }
+    #SuggestBox button
+    {
+        font-size: 18px;
+    }
+}
+
