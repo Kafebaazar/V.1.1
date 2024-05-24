@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <title>کف بازار | صفحه دسته بندی</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <!-- Link Tools -->
+        <link rel="stylesheet" href="../css/Tools/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/Tools/bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="../css/Tools/bootstrap-grid.rtl.min.css">
+        <link rel="stylesheet" href="../css/Tools/owl.carousel.min.css">
+        <link rel="stylesheet" href="../css/Tools/owl.theme.default.min.css">
+        <!-- Home layout Style -->
+        <link rel="stylesheet" href="../css/Home/Home-Style.css">
+        <link rel="stylesheet" href="../css/Home/Home-Responsive.css">
+        <link rel="stylesheet" href="../css/Home/Home-Color.css">
+        <!-- Public Layout Style -->
+        <link rel="stylesheet" href="../css/Public/Public-Style.css">
+        <link rel="stylesheet" href="../css/Public/Public-Responsive.css">
+        <link rel="stylesheet" href="../css/Public/Public-Color.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="myContainer d-flex flex-column">
+            <!-- Main Header -->
+            <div id="MainHeader">
+                <!-- Nav -->
+                <nav class="d-flex row m-0 w-100 Line">
+                    <div id="AccountBox" class="col-lg-3 col-md-3 col-3 h-100 d-flex justify-content-center align-items-center ">
+                        <a href="Accounting.html">
+                            <button onmouseenter="ChangeAccountIcon('In')" onmouseleave="ChangeAccountIcon('Out')" type="button">پنل کاربری <img id="Account_icon" src="../icon/User-Blue.png" alt="User Default Image"> </button>
+                        </a>
+                    </div>
+                    <div id="AddJobBox" class="col-lg-4 col-md-3 col-3 h-100 d-flex justify-content-center align-items-center  ">
+                        <a href="Accounting.html">
+                            <button type="button"> ! کسب و کارت را ثبت کن</button>
+                        </a> 
+                    </div>
+                    <div id="TabBox" class="col-lg-5 col-md-6 col-6 h-100 d-flex p-0">
+                        <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
+                            <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center " onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center " onclick="TabFocuse('Training')"> آموزش </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="#" id="TabAboutUs" class="h-100 d-flex align-items-center " onclick="TabFocuse('AboutUs')"> درباره ما </a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /Nav -->
+                <div  class="d-flex row m-0 w-100  Line">
+                    <div id="LogInOutBox" class="d-flex row col-3 col-md-3 p-0 m-0 align-items-center justify-content-center ">
+                        <a href="Accounting.html" class="w-auto">
+                            <button type="button"> ورود یا ثبت نام <img src="../icon/login.png" alt="Login LogOut Image"> </button>
+                        </a>
+                    </div>
+                    <div id="SearchBox" class="d-flex px-1 flex-column col-6 col-md-6 justify-content-center align-items-end ">
+                        <div class="m-0  d-flex row w-100 justify-content-center align-items-baseline">
+                            <p class="d-flex row-cols-auto justify-content-end align-items-center col-4 ">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
+                            <input class="col-8" type="search" placeholder="جستجو...">
+                        </div>
+                        <a href="Accounting.html" class="d-flex justify-content-end ">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
+                    </div>
+                    <div id="LogoBox" class="d-flex justify-content-center align-items-center col-3 col-md-3 ">
+                        <h1><a href="Home.html"><img class="img-fluid w-auto h-75" src="../icon/LogoSite/KaffeBazarIcon-01.png" alt="KaffeBazarIcon"></a></h1> 
+                    </div>
+                </div>
+            </div>
+            <!-- /Main Header -->
+            <!-- Mobile Header -->
+            <div id="MobileHeader" class="row justify-content-center align-items-center m-0 w-100 Line">
+                <div  class="d-flex row h-60 m-0 p-0 w-100  Line">
+                    <div id="MobileLogInOutBox" class="d-flex row col-2 p-0 m-0 align-items-center justify-content-center ">
+                        <a href="Accounting.html" class="w-auto d-flex justify-content-center align-items-center">
+                            <button type="button" class="rounded-circle"><img src="../icon/User-Blue.png" alt="Login LogOut Image"></button>
+                        </a>
+                    </div>
+                    <div id="SearchBox" class="d-flex flex-column col-sm-7 col-8 px-1 py-2 justify-content-center align-items-end ">
+                        <div class="mx-0 my-1 d-flex row w-100 justify-content-center align-items-baseline">
+                            <p class="d-flex row-cols-auto justify-content-end align-items-center col-3">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
+                            <input class="col-9" type="search" placeholder="جستجو...">
+                        </div>
+                        <a href="Accounting.html" class="d-flex row-cols-auto justify-content-end">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
+                    </div>
+                    <div id="LogoBox" class="d-flex justify-content-center align-items-center col-sm-3 col-2">
+                        <h1><a href="Home.html"><img class="img-fluid w-auto h-75" src="../icon/LogoSite/MobileLogo.png" alt="KaffeBazarIcon"></a></h1> 
+                    </div>
+                </div>
+                <div id="TabBox" class="col-11 h-40 d-flex p-0">
+                    <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
+                        <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center " onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center " onclick="TabFocuse('Training')"> آموزش </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="#" id="TabAboutUs" class="h-100 d-flex align-items-center " onclick="TabFocuse('AboutUs')"> درباره ما </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /Mobile Header -->
+        </header>
+        <!-- /Header -->
+        <!-- Banner -->
+        <section id="Banner" class="myContainer m-0 p-3 Line d-flex row justify-content-center align-items-center">
+            <img src="../img/Banner/BannerDefualt.png" alt="Banner Default" class="img-fluid h-100 w-100">
+        </section>
+        <!-- /Banner -->
+        <!-- Categories -->
+        <section id="Categories" class="myContainer d-flex flex-column p-0">
+            <div id="CategoriesTitle" class="w-100 m-0 p-0 Line d-flex  justify-content-center align-items-center">
+                <h2 class="px-3">عنوان دسته بندی</h2>
+            </div>
+            <div id="CategoriesBox" class="w-100 py-2 Line d-flex row m-0 align-items-center justify-content-center">
+                <div class="px-1 h-100 col-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="ContentList.html" class="w-100 h-auto">
+                        <div class="Category w-100 h-auto p-2 "> <img src="../icon/Categuriy/Category.png" alt="Default Category" class="img-fluid w-100 h-100"> </div>
+                        <h3 class="w-100 m-0 py-md-3 py-sm-1 text-center"> زیر دسته</h3>
+                    </a>
+                </div>
+                <div class="px-1 h-100 col-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="ContentList.html" class="w-100 h-auto">
+                        <div class="Category w-100 h-auto p-2 "> <img src="../icon/Categuriy/Category.png" alt="Default Category" class="img-fluid w-100 h-100"> </div>
+                        <h3 class="w-100 m-0 py-md-3 py-sm-1 text-center"> زیر دسته</h3>
+                    </a>
+                </div>
+                <div class="px-1 h-100 col-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="ContentList.html" class="w-100 h-auto">
+                        <div class="Category w-100 h-auto p-2 "> <img src="../icon/Categuriy/Category.png" alt="Default Category" class="img-fluid w-100 h-100"> </div>
+                        <h3 class="w-100 m-0 py-md-3 py-sm-1 text-center"> زیر دسته</h3>
+                    </a>
+                </div>
+                <div class="px-1 h-100 col-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="ContentList.html" class="w-100 h-auto">
+                        <div class="Category w-100 h-auto p-2 "> <img src="../icon/Categuriy/Category.png" alt="Default Category" class="img-fluid w-100 h-100"> </div>
+                        <h3 class="w-100 m-0 py-md-3 py-sm-1 text-center"> زیر دسته</h3>
+                    </a>
+                </div>
+                <div class="px-1 h-100 col-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="ContentList.html" class="w-100 h-auto">
+                        <div class="Category w-100 h-auto p-2 "> <img src="../icon/Categuriy/Category.png" alt="Default Category" class="img-fluid w-100 h-100"> </div>
+                        <h3 class="w-100 m-0 py-md-3 py-sm-1 text-center"> زیر دسته</h3>
+                    </a>
+                </div>
+                <div class="px-1 h-100 col-1 d-flex flex-column justify-content-center align-items-center">
+                    <a href="ContentList.html" class="w-100 h-auto">
+                        <div class="Category w-100 h-auto p-2 "> <img src="../icon/Categuriy/Category.png" alt="Default Category" class="img-fluid w-100 h-100"> </div>
+                        <h3 class="w-100 m-0 py-md-3 py-sm-1 text-center"> زیر دسته</h3>
+                    </a>
+                </div> 
+            </div>
+        </section>
+        <!-- /Categories -->
+        <!-- NewstJob -->
+        <section id="NewstJob" class="myContainer p-0 m-0 d-flex row justify-content-between align-items-center">
+            <div class="Jobcard d-flex flex-column col-3 px-3 py-2 ">
+                <a href="JobView.html" class="d-flex flex-column w-100 h-100">
+                    <div class="JobCard-Img w-100 h-50">
+                        <img class="img-fluid w-100 h-100 " src="../img/Job/ImageNull.png" alt="Job Image">
+                    </div>
+                    <div class="JobCard-Info w-100 h-50 d-flex flex-column align-items-center">
+                        <div class="Jobcard-UserImg rounded-circle">
+                            <img class="img-fluid w-100 h-100 rounded-circle"  src="../img/User/UserNull.png" alt="User Image">
+                        </div>
+                        <div class="JobCard-Text w-100 py-sm-3 d-flex flex-column justify-content-between align-items-center h-75">
+                            <h3> عنوان شغل ، نام کاربر</h3>
+                            <p>گلستان</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="Jobcard d-flex flex-column col-3 px-3 py-2 ">
+                <a href="JobView.html" class="d-flex flex-column w-100 h-100">
+                    <div class="JobCard-Img w-100 h-50">
+                        <img class="img-fluid w-100 h-100 " src="../img/Job/ImageNull.png" alt="Job Image">
+                    </div>
+                    <div class="JobCard-Info w-100 h-50 d-flex flex-column align-items-center">
+                        <div class="Jobcard-UserImg rounded-circle">
+                            <img class="img-fluid w-100 h-100 rounded-circle"  src="../img/User/UserNull.png" alt="User Image">
+                        </div>
+                        <div class="JobCard-Text w-100 py-sm-3 d-flex flex-column justify-content-between align-items-center h-75">
+                            <h3> عنوان شغل ، نام کاربر</h3>
+                            <p>گلستان</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="Jobcard d-flex flex-column col-3 px-3 py-2 ">
+                <a href="JobView.html" class="d-flex flex-column w-100 h-100">
+                    <div class="JobCard-Img w-100 h-50">
+                        <img class="img-fluid w-100 h-100 " src="../img/Job/ImageNull.png" alt="Job Image">
+                    </div>
+                    <div class="JobCard-Info w-100 h-50 d-flex flex-column align-items-center">
+                        <div class="Jobcard-UserImg rounded-circle">
+                            <img class="img-fluid w-100 h-100 rounded-circle"  src="../img/User/UserNull.png" alt="User Image">
+                        </div>
+                        <div class="JobCard-Text w-100 py-sm-3 d-flex flex-column justify-content-between align-items-center h-75">
+                            <h3> عنوان شغل ، نام کاربر</h3>
+                            <p>گلستان</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div id="NewstJobTitle" class="d-flex flex-column  col-3 h-100 p-0">
+                <div class="w-100 h-50 d-flex p-3 flex-column justify-content-end align-items-end">
+                    <img class="img-fluid w-auto h-100" src="../icon/Newest.png" alt="NewstJobTitle Image">
+                </div>
+                <div class="w-100 h-50 d-flex flex-column justify-content-start align-items-center">
+                    <h2>مشاغل جدید</h2>
+                    <p>به پروفایلشون سر بزن</p>
+                </div>
+            </div>    
+        </section>
+        <!-- /NewstJob -->
+        <!-- WebLog -->
+        <section id="WebLog" class="myContainer d-flex flex-column ">
+            <div class="WeblogTitle px-3 Line d-flex flex-column justify-content-center align-items-end">
+                <h2>وبلاگ</h2>
+            </div>
+            <div class="WebLogBox Line d-flex px-3 row justify-content-center align-items-center">
+                <div class="col-4 px-2 d-flex flex-column justify-content-start align-items-center">
+                    <a href="WebLogView.html" class="w-100 ">
+                        <div class="WeblogCard w-100">
+                            <div class="WebLog-Img w-100 h-75">
+                                <img class="w-100 h-100 img-fluid" src="../img/WebLog/ImageNull.png" alt="">
+                            </div>
+                            <div class="WebLog-Info w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان مقاله</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+                <div class="col-4 px-2 d-flex flex-column justify-content-start align-items-center">
+                    <a href="WebLogView.html" class="w-100 ">
+                        <div class="WeblogCard w-100">
+                            <div class="WebLog-Img w-100 h-75">
+                                <img class="w-100 h-100 img-fluid" src="../img/WebLog/ImageNull.png" alt="">
+                            </div>
+                            <div class="WebLog-Info w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان مقاله</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+                <div class="col-4 px-2 d-flex flex-column justify-content-start align-items-center">
+                    <a href="WebLogView.html" class="w-100 ">
+                        <div class="WeblogCard w-100">
+                            <div class="WebLog-Img w-100 h-75">
+                                <img class="w-100 h-100 img-fluid" src="../img/WebLog/ImageNull.png" alt="">
+                            </div>
+                            <div class="WebLog-Info w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان مقاله</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+            </div>
+        </section>
+        <!-- /WebLog -->
+        <!-- Request -->
+        <section id="Request" class="myContainer d-flex align-items-center row">
+            <div id="RequestBox" class="d-flex row px-0  justify-content-center align-items-start col-9 h-75 ">
+                <div class="col-3 ">
+                    <a href="RequestView.html">
+                        <div class="RequestCard d-flex flex-column">
+                            <div class="RequestImg w-100 h-75">
+                                <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                            </div>
+                            <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان درخواست</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-3 ">
+                    <a href="RequestView.html">
+                        <div class="RequestCard d-flex flex-column ">
+                            <div class="RequestImg w-100 h-75">
+                                <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                            </div>
+                            <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان درخواست</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-3 ">
+                    <a href="RequestView.html">
+                        <div class="RequestCard d-flex flex-column">
+                            <div class="RequestImg w-100 h-75">
+                                <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                            </div>
+                            <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان درخواست</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-3 ">
+                    <a href="RequestView.html">
+                        <div class="RequestCard d-flex flex-column ">
+                            <div class="RequestImg w-100 h-75">
+                                <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                            </div>
+                            <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <h3>عنوان درخواست</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="RequestTitle" class="d-flex flex-column col-3 h-100">
+                <div class="w-100 h-50 d-flex p-3 flex-column justify-content-end align-items-end">
+                    <img class="img-fluid w-auto h-100" src="../icon/Request.png" alt="RequestTitle Image">
+                </div>
+                <a href="RequestList.html" class="w-100 h-25 d-flex flex-column justify-content-start align-items-center">
+                    <h2>درخواست ها</h2>
+                    <p>اینجا کلی درخواست جدید داریم</p>
+                </a>
+            </div>
+        </section>
+        <!-- /Request -->
+        <!-- Offers -->
+        <section id="Offers" class="myContainer d-flex flex-column Line">
+            <div class="OffersTitle px-3 Line d-flex flex-column justify-content-center align-items-end">
+                <h2>پیشنهادات</h2>
+            </div>
+            <div class="OffersBox d-flex row justify-content-center align-items-center">
+                <div class="Jobcard d-flex flex-column col-3 px-3 py-2 ">
+                    <a href="JobView.html" class="d-flex flex-column w-100 h-100">
+                        <div class="JobCard-Img w-100 h-50">
+                            <img class="img-fluid w-100 h-100 " src="../img/Job/ImageNull.png" alt="Job Image">
+                        </div>
+                        <div class="JobCard-Info w-100 h-50 d-flex flex-column align-items-center">
+                            <div class="Jobcard-UserImg rounded-circle">
+                                <img class="img-fluid w-100 h-100 rounded-circle"  src="../img/User/UserNull.png" alt="User Image">
+                            </div>
+                            <div class="JobCard-Text w-100 py-sm-3 d-flex flex-column justify-content-between align-items-center h-75">
+                                <h3> عنوان شغل ، نام کاربر</h3>
+                                <p>گلستان</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="Jobcard d-flex flex-column col-3 px-3 py-2 ">
+                    <a href="JobView.html" class="d-flex flex-column w-100 h-100">
+                        <div class="JobCard-Img w-100 h-50">
+                            <img class="img-fluid w-100 h-100 " src="../img/Job/ImageNull.png" alt="Job Image">
+                        </div>
+                        <div class="JobCard-Info w-100 h-50 d-flex flex-column align-items-center">
+                            <div class="Jobcard-UserImg rounded-circle">
+                                <img class="img-fluid w-100 h-100 rounded-circle"  src="../img/User/UserNull.png" alt="User Image">
+                            </div>
+                            <div class="JobCard-Text w-100 py-sm-3 d-flex flex-column justify-content-between align-items-center h-75">
+                                <h3> عنوان شغل ، نام کاربر</h3>
+                                <p>گلستان</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="Jobcard d-flex flex-column col-3 px-3 py-2 ">
+                    <a href="JobView.html" class="d-flex flex-column w-100 h-100">
+                        <div class="JobCard-Img w-100 h-50">
+                            <img class="img-fluid w-100 h-100 " src="../img/Job/ImageNull.png" alt="Job Image">
+                        </div>
+                        <div class="JobCard-Info w-100 h-50 d-flex flex-column align-items-center">
+                            <div class="Jobcard-UserImg rounded-circle">
+                                <img class="img-fluid w-100 h-100 rounded-circle"  src="../img/User/UserNull.png" alt="User Image">
+                            </div>
+                            <div class="JobCard-Text w-100 py-sm-3 d-flex flex-column justify-content-between align-items-center h-75">
+                                <h3> عنوان شغل ، نام کاربر</h3>
+                                <p>گلستان</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="Jobcard d-flex flex-column col-3 px-3 py-2 ">
+                    <a href="JobView.html" class="d-flex flex-column w-100 h-100">
+                        <div class="JobCard-Img w-100 h-50">
+                            <img class="img-fluid w-100 h-100 " src="../img/Job/ImageNull.png" alt="Job Image">
+                        </div>
+                        <div class="JobCard-Info w-100 h-50 d-flex flex-column align-items-center">
+                            <div class="Jobcard-UserImg rounded-circle">
+                                <img class="img-fluid w-100 h-100 rounded-circle"  src="../img/User/UserNull.png" alt="User Image">
+                            </div>
+                            <div class="JobCard-Text w-100 py-sm-3 d-flex flex-column justify-content-between align-items-center h-75">
+                                <h3> عنوان شغل ، نام کاربر</h3>
+                                <p>گلستان</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- /Offers -->
+        <!-- Footer -->
+        <footer class="myContainer d-flex row">
+            <div class="col-6 h-100 p-1 d-flex flex-column align-items-center ">
+                <div class="Certificate py-4 col-12 h-50 d-flex row justify-content-center align-items-start Line">
+                    <div class="col-4 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid h-100" src="../img/Certifiate/Enamad.png" alt="">
+                    </div>
+                    <div class="col-4 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid h-100" src="../img/Certifiate/Etemad.png" alt="">
+                    </div>
+                    <div class="col-4 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid h-100" src="../img/Certifiate/samandehi.png" alt="">
+                    </div>
+                </div>
+                <div class="SocialMedia col-12 h-50 d-flex flex-column align-items-center justify-content-between">
+                    <p>ما را در شبکه های اجتماعی دنبال کنبد</p>
+                    <div class="d-flex row justify-content-center align-items-center">
+                        <img class="col-2 mx-1 h-auto img-fluid" src="../icon/SocialMedia/instagram.png" alt="SocialMedia">
+                        <img class="col-2 mx-1 h-auto img-fluid" src="../icon/SocialMedia/aparat.png" alt="SocialMedia">
+                        <img class="col-2 mx-1 h-auto img-fluid" src="../icon/SocialMedia/youtube.png" alt="SocialMedia">
+                    </div>
+                    <p class="text-center"> .استفاده از سایت مشروط بر پذیرش <a href=""> توافق نامه کاربری</a> و <a href=""> حفظ حریم شخصی </a> است</p>
+                </div>
+                <div></div>
+            </div>
+            <div class="col-6 h-100 p-1 d-flex flex-column align-items-center ">
+                <ul class="list-unstyled col-lg-10 col-md-12 d-flex row-cols-auto flex-row-reverse justify-content-between ">
+                    <li class="d-flex h-100 align-items-end"><a href="Home.html" class="h-100 d-flex align-items-center " > صفحه اصلی  </a></li>
+                    <li class="d-flex h-100 align-items-end"><a href="Categories.html" class="h-100 d-flex align-items-center " > دسته بندی </a></li>
+                    <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" class="h-100 d-flex align-items-center " > وب لاگ </a></li>
+                    <li class="d-flex h-100 align-items-end"><a href="CourseList.html" class="h-100 d-flex align-items-center " > آموزش </a></li>
+                    <li class="d-flex h-100 align-items-end"><a href="#" class="h-100 d-flex align-items-center " > درباره ما </a></li>
+                </ul>
+                <div class="col-lg-10 col-md-12 h-50 d-flex flex-column justify-content-center align-items-center rounded-4">
+                    <iframe class="rounded-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1898.0431353990577!2d54.44979024266524!3d36.86365801501599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f833633d76bc3b5%3A0x61dcf80fe547b93e!2sIslamic%20Azad%20University%2C%20Gorgan%20Branch!5e0!3m2!1sen!2s!4v1706352942517!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <p class="Address col-lg-10 col-md-12 d-flex align-items-center justify-content-center">آدرس : گلستان ، گرگان ، دانشگاه آزاد اسلامی گرگان ، مرکز رشد</p>
+            </div>
+        </footer>
+        <!-- /Footer -->
+    </body>
+    <script src="../js/Tools/jquery-3.7.1.min.js"></script>
+    <script src="../js/Tools//bootstrap.min.js"></script>
+    <script src="../js/Tools//bootstrap.bundle.min.js"></script>
+    <script src="../js/Tools//owl.carousel.min.js"></script>
+    <script src="../js/Home/Home-Script.js"></script>
+</html>
