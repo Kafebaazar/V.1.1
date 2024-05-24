@@ -1,0 +1,204 @@
+@import url(../Tools/Font.css);
+
+@media (max-width: 2080px) /*PC*/
+{
+.CourseInfo li
+{
+    font-size: 20px;
+}
+}
+
+@media (max-width: 1880px) /*PC*/
+{
+.MasterImg
+{
+    margin-top: -95px;
+    width: 165px;
+    height: 165px;  
+}
+.CourseInfo h1 
+{
+    font-size: 36px;
+}
+.CourseInfo p
+{
+    font-size: 24px;
+}
+.CourseInfo li
+{
+    font-size: 22px;
+}
+}
+
+@media (max-width:1440px) /*LapTop L*/
+{
+.MasterImg
+{
+    margin-top: -95px;
+    width: 150px;
+    height: 150px;  
+}
+.CourseInfo h1 
+{
+    font-size: 32px;
+}
+.CourseInfo p
+{
+    font-size: 20px;
+}
+.CourseInfo li
+{
+    font-size: 16px;
+}
+.CourseInfo button
+{
+    height: 70px;
+    font-size: 18px;
+}
+#CourseContent
+{
+    height: 1250px;
+}
+.CourseDescription
+{
+    height: 280px;
+}
+.CourseContent
+{
+    height: 900px;
+}
+.CoursePart
+{
+    height: 200px;
+}
+.CoursePartDescription h2 
+{
+    font-size: 28px;
+}
+.CoursePartDescription p 
+{
+    font-size: 17px;
+}
+.CoursePartDescription div p 
+{
+    font-size: 16px;
+}
+}
+
+@media (max-width: 1024px) /*LapTop*/
+{
+.MasterImg
+{
+    margin-top: -75px;
+    width: 120px;
+    height: 120px;  
+}
+.CourseInfo h1 
+{
+    font-size: 26px;
+}
+.CourseInfo p
+{
+    font-size: 18px;
+}
+.CourseInfo li
+{
+    font-size: 14px;
+}
+.CourseInfo button
+{
+    height: 60px;
+    font-size: 16px;
+}
+#CourseContent
+{
+    height: 1150px;
+}
+.CourseDescription
+{
+    height: 250px;
+}
+.CourseContent
+{
+    height: 800px;
+}
+.CoursePart
+{
+    height: 170px;
+}
+.CoursePartDescription h2 
+{
+    font-size: 24px;
+}
+.CoursePartDescription p 
+{
+    font-size: 12px;
+}
+.CoursePartDescription div p 
+{
+    font-size: 12px;
+}
+#Recommended h2
+{
+    font-size: 24px;
+}
+}
+
+@media (max-width: 575px) /*LapTop*/
+{
+.MasterImg
+{
+    margin-top: -75px;
+    width: 120px;
+    height: 120px;  
+}
+.CourseInfo h1 
+{
+    font-size: 26px;
+}
+.CourseInfo p
+{
+    font-size: 18px;
+}
+.CourseInfo li
+{
+    font-size: 14px;
+}
+.CourseInfo button
+{
+    height: 60px;
+    font-size: 16px;
+}
+#CourseContent
+{
+    height: 1150px;
+}
+.CourseDescription
+{
+    height: 250px;
+}
+.CourseContent
+{
+    height: 800px;
+}
+.CoursePart
+{
+    height: 400px;
+}
+.CoursePartDescription h2 
+{
+    font-size: 24px;
+}
+.CoursePartDescription p 
+{
+    font-size: 12px;
+}
+.CoursePartDescription div p 
+{
+    font-size: 12px;
+}
+#Recommended h2
+{
+    font-size: 16px;
+}
+}
