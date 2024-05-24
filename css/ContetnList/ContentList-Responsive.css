@@ -1,0 +1,232 @@
+@import url(../Tools/Font.css);
+
+@media (max-width: 1880px) /*PC*/
+{
+/* Content */
+#Content
+{
+    height: 1500px;
+}
+/* Content Sort */
+#ContentSort
+{
+    height: 90px;
+}
+#ContentSort li
+{
+    font-size: 24px;
+    font-weight: 500;
+    height: 50px;
+} 
+#ContentSort p
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Content List */
+#ContentList
+{
+    height: 1400px;
+}
+#ContentList .Jobcard
+{
+    height: 400px;
+}
+}
+
+@media (max-width:1440px) /*LapTop L*/
+{
+/* Content */
+#Content
+{
+    height: 1300px;
+}
+/* Content Sort */
+#ContentSort li
+{
+    font-size: 22px;
+    font-weight: 500;
+} 
+#ContentSort p
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+ /* Content List */
+#ContentList
+{
+    height: 1100px;
+}
+#ContentList .Jobcard
+{
+    height: 350px;
+}
+#ContentList .Jobcard-UserImg
+{
+    width: 90px;
+    height: 90px;
+    margin-top: -50px;
+}
+/*  */
+.FilterHeader h2
+{
+    font-size: 36px;
+}
+.FliterConent li
+{
+    font-size: 24px;
+}
+.FliterConent li img
+{
+    width:26px;
+    height:26px;
+}
+.FliterConent button
+{
+    width: 200px;
+}
+}
+
+@media (max-width: 1024px) /*LapTop*/
+{
+   /* Content */
+#Content
+{
+    height: 1100px;
+}
+/* Content Sort */
+#ContentSort
+{
+    height: 100px;
+}
+#ContentSort li
+{
+    font-size: 18px;
+    font-weight: 500;
+    height: 30px;
+} 
+#ContentSort p
+{
+    height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+ /* Content List */
+#ContentList
+{
+    height: 1000px;
+}
+#ContentList .Jobcard
+{
+    height: 300px;
+}
+#ContentList .Jobcard-UserImg
+{
+    width: 75px;
+    height: 75px;
+    margin-top: -40px;
+}
+/*  */
+.FilterHeader h2
+{
+    font-size: 32px;
+}
+.FliterConent li
+{
+    font-size: 22px;
+}
+.FliterConent li img
+{
+    width:24px;
+    height:24px;
+}
+.FliterConent button
+{
+    width: 170px;
+    height: 60px;
+    font-size: 22px;
+}
+} 
+
+@media (max-width: 768px) /*LapTop*/
+{
+   /* Content */
+#Content
+{
+    height: 900px;
+}
+/* Content Sort */
+#ContentSort
+{
+    height: 90px;
+}
+#ContentSort li
+{
+    font-size: 16px;
+    font-weight: 500;
+    height: 35px;
+} 
+#ContentSort p
+{
+    height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+ /* Content List */
+#ContentList
+{
+    height: 700px;
+}
+#ContentList .Jobcard
+{
+    height: 220px;
+}
+#ContentList .Jobcard-UserImg
+{
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+}
+#ContentList .JobCard-Text h3
+{
+    text-align: center;
+    font-size: 12px;
+}
+#ContentList .JobCard-Text p
+{
+    font-size: 10px;
+}
+/*  */
+.filter-open
+{
+    height: 250px !important;
+}
+.FilterHeader
+{
+    height: 70px;
+}
+.FilterHeader h2
+{
+    font-size: 20px;
+}
+.FilterHeader P
+{
+    font-size: 10px;
+}
+.FliterConent li
+{
+    font-size: 18px;
+    height: 80px;
+}
+.FliterConent li img
+{
+    width:24px;
+    height:24px;
+}
+.FliterConent button
+{
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+}
+}
