@@ -1,0 +1,58 @@
+@import url(../Tools/Font.css);
+/* WebLogInfo */
+#RequestInfo
+{
+    margin-top: -100px;
+    height: 400px;
+}
+.UserImg
+{
+    border : 5px solid ;
+    width: 175px;
+    height: 175px;
+}
+.RequestInfo
+{
+    border-radius : 16px;
+    border:3px solid;
+}
+.RequestInfo img
+{
+    width: 40px;
+    height: auto;
+}
+#RequestDescription
+{
+    border-radius : 16px;
+    border:3px solid; 
+    font-size: 20px;
+    font-weight: 500;
+}
+/* SuggestBox */
+#SuggestBox
+{
+    height: 800px;
+}
+#SuggestBox input
+{
+
+    direction: rtl;
+    border-radius : 16px;
+    border:3px solid;
+    font-size: 24px;
+}
+#SuggestBox button
+{
+    font-size: 24px;
+    font-weight: 700;
+    height: 60px;
+    border-radius :16px;
+}
+#SuggestTitle
+{
+    height: 120px;
+}
+#SuggestText
+{
+    height: 500px;
+}
